@@ -3,11 +3,12 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-
+import { ScorekeeperComponent } from './components/scorekeeper/scorekeeper.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ScorekeeperComponent
   ],
   imports: [
     BrowserModule
