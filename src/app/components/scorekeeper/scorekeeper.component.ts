@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-scorekeeper',
   templateUrl: './scorekeeper.component.html'
 })
 export class ScorekeeperComponent {
-    playerWins: number = 0;
+    @Input() playerWins: number;
 }
