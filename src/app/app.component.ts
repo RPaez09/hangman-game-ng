@@ -7,6 +7,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Hangman Game';
   playerWins: number = 0;
-
-  word = "test";
+  currentWord: string = "House Of Cards";
 }
