@@ -1,4 +1,5 @@
-import { Input , Component } from '@angular/core';
+import { Input , Component , OnInit } from '@angular/core';
+
 
 @Component({
     selector : 'app-wordguess',
@@ -6,5 +7,5 @@ import { Input , Component } from '@angular/core';
 })
 
 export class WordGuessComponent {
-    @Input() currentWord: string;
+    @Input() wordArray: string[];
  }

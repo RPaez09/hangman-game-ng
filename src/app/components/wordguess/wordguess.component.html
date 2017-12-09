@@ -1,1 +1,1 @@
-<span>Word: {{ currentWord }}</span>
+<app-letter *ngFor="let letter of wordArray" [chosenLetter]="letter" ></app-letter>

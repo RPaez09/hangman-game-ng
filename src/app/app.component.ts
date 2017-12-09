@@ -8,4 +8,5 @@ export class AppComponent {
   title = 'Hangman Game';
   playerWins: number = 0;
   currentWord: string = "House Of Cards";
+  wordArray = this.currentWord.split('');
 }
