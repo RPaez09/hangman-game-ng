@@ -21,11 +21,18 @@ h1.jumbo {
     text-align: center;
 }
 
-.word-area {
-    width: 100vw;
-    margin-top: 20vh;
-    padding: 2vh 4vh;
-    height: 40vh;
+app-wordguess {
+    display: block;
+    text-align: center;
+}
+
+app-letter {
+    height: 100px;
+    width: 35px;
+    border: 1px solid #b0b0b0;
+    padding: 20px;
+    margin: 0 5px;
+    border-radius: 3px;
 }
 
 .scorekeeper-main {
